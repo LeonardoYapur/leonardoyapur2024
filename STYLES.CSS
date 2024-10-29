@@ -1,0 +1,37 @@
+body {
+    background-color: #748386;
+}
+
+a {
+    color: #748386;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{ 
+  height: 35px;
+  padding: 35px;
+  display: flex;
+    background-color: #9DC7C8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; 
+    height: 50px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-list {
+    display:flex;
+    gap: 100px;
+    margin: 50px;
+}
